@@ -51,7 +51,7 @@ header{
 
 .back{
     background: linear-gradient(#f8da61,#ff5acd);
-    z-index: 1;
+    z-index: 5;
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
