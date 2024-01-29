@@ -30,3 +30,18 @@ document.addEventListener('DOMContentLoaded', function() {
   let video = document.getElementById('myvideo');
     video.play();
   });
+
+ // Select the submit button
+ const submitButton = document.getElementById('submitButton');
+
+ // Add event listener for submit event
+ submitButton.addEventListener('click', function(event) {
+     // Prevent the default form submission behavior
+     event.preventDefault();
+     
+     // Display an alert
+     alert('Form submitted!');
+
+     // Log to the console
+     console.log('Form submitted!');
+ });
