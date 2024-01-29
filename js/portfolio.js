@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
      event.preventDefault();
      
      // Display an alert
-     alert('Form submitted!');
+     alert('submitted!');
 
      // Log to the console
-     console.log('Form submitted!');
+     console.log('submitted!');
  });
