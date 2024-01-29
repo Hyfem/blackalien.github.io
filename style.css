@@ -46,13 +46,12 @@ header{
 .front{
     background: linear-gradient(#08aeea,#2af59a);
     z-index: 2;
-    transform: rotatey(180deg);
     backface-visibility: hidden;
 }
 
 .back{
     background: linear-gradient(#f8da61,#ff5acd);
-    z-index: 1;
+    z-index: 5;
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
