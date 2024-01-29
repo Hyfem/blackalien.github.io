@@ -46,6 +46,7 @@ header{
 .front{
     background: linear-gradient(#08aeea,#2af59a);
     z-index: 2;
+    transform: rotatey(180deg);
     backface-visibility: hidden;
 }
 
