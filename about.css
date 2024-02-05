@@ -114,9 +114,11 @@ footer div{
 }
 .notee
  {
-    height: 200px;
-    width: 400px;
+
+    height: 350px;
+    width: 340px;
     padding: 5px;
+
 }
 article{
     display: flex;

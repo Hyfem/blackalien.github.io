@@ -96,7 +96,7 @@ article{
 }
 .divvv{
     border: 2px solid white;
-    height: 300px;
+    height: fit-content;
     width: 400px;
     text-align: center;
 }
